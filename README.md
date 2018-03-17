@@ -1,9 +1,9 @@
 ## Installation
 ```js
-yarn global add vue-google-heatmap
+yarn add vue-google-heatmap
 ```
 
-You will need an Google Maps Javascript API Key. [Google Cloud Console](https://console.cloud.google.com/)
+You will need an Google Maps Javascript API Key. You can get one here: [Google Cloud Console](https://console.cloud.google.com/)
 
 ```js
 import VueGoogleHeatmap from 'vue-google-heatmap';
@@ -14,7 +14,7 @@ Vue.use(VueGoogleHeatmap, {
 ```
 
 ## Example
-```js
+```vue
 <template>
   <vue-google-heatmap :points="points"
                       :width="400"
