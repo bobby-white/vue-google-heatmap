@@ -1,0 +1,9 @@
+{
+  "name": "vue-google-heatmap",
+  "version": "1.0.0",
+  "description": "Vue Heatmap component that uses Google Maps",
+  "main": "src/index.js",
+  "repository": "git@github.com:haemly/vue-google-heatmap.git",
+  "author": "Bobby White",
+  "license": "MIT"
+}
