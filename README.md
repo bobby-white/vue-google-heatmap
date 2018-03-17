@@ -44,7 +44,7 @@ data() {
 </script>
 ```
 
-![heatmap example](https://imgur.com/a/iahTd)
+![heatmap example](https://i.imgur.com/fzkAFmv.png)
 
 ## Available Props
 | Name         | Type    | Default | Description |
