@@ -55,7 +55,9 @@ export default {
     },
     heatmapPoints() {
       return this.points.map(
-        point => new google.maps.LatLng(point.lat, point.lng)
+        (point) => {
+        return { location: new google.maps.LatLng(point.lat, point.lng), weight: point.weight }
+        }
       );
     }
   },
