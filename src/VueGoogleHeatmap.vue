@@ -36,6 +36,10 @@ export default {
     height: {
       type: [String, Number],
       default: () => '100%'
+    },
+    options: {
+      type: Object,
+      default: () => {}
     }
   },
   computed: {
@@ -77,6 +81,17 @@ export default {
       });
 
       this.$heatmap.setMap(this.$mapObject);
+      this.$heatmap.setOptions(this.options);
+
+      this.$watch('heatmapPoints', points => {
+        this.$heatmap.setData(points);
+      });
+
+      this.$watch('options', options => {
+        this.$heatmap.setOptions(options);
+      }, {
+        deep: true
+      });
     });
   }
 };

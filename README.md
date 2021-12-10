@@ -58,3 +58,4 @@ export default {
 | lat | Number | 37.775 | Map center latitude |
 | lng | Number | -122.434 | Map center longitude |
 | points | Array | [] | Points to generate Heatmap with, array of objects [{lat: 37.775, lng: -122.434}] |
+| options | Object | {} | Heatmap layer options (See [available options here](https://developers.google.com/maps/documentation/javascript/reference/visualization#HeatmapLayerOptions))
